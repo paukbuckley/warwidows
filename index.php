@@ -1,17 +1,17 @@
 <?php
-//error_reporting(E_ALL);
-//ini_set('display_errors', TRUE);
-//ini_set('display_startup_errors', TRUE);
+error_reporting(E_ALL);
+ini_set('display_errors', TRUE);
+ini_set('display_startup_errors', TRUE);
 // ----------------------------------------------------------------------------------------------------
 // - Display Errors
 // ----------------------------------------------------------------------------------------------------
-ini_set('display_errors', 'On');
-ini_set('html_errors', 0);
+//ini_set('display_errors', 'On');
+//ini_set('html_errors', 0);
 
 // ----------------------------------------------------------------------------------------------------
 // - Error Reporting
 // ----------------------------------------------------------------------------------------------------
-error_reporting(-1);
+//error_reporting(-1);
 
 // ----------------------------------------------------------------------------------------------------
 // - Shutdown Handler
