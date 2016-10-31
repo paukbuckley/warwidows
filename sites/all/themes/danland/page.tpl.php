@@ -201,3 +201,17 @@
 <p> Copyright &copy <?php echo date("Y"); ?> The War Widows Guild Of Australia</p>
 <p>Proudly Developed by <a href="http://www.calexigroup.com.au">Calexi Group</a></p></div>
 </div>
+<script>
+(function($){        
+$('.gallery-block').click(function() {
+	var album = $(this).text()
+	album= $.trim(album)
+	album = album.replace(/\s+/g, '-').toLowerCase();
+	var baseUrl = location.protocol + "//" + location.host + "/gallery/" + album
+    	//alert( baseUrl );
+    
+	 window.location.href = baseUrl;
+      return false;
+        });
+})(jQuery);
+</script>

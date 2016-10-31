@@ -456,7 +456,7 @@ background: transparent;
 -------------------------------------------------------------- */
 
 #slideshow-wrapper{
-width:100%;
+width:1000px;
 background: transparent url(images/slideshow-shadow.gif) no-repeat center bottom;
 height:420px;
 margin-bottom:-45px;
@@ -541,15 +541,15 @@ float: left;
 }
 
 #preface-wrapper.in1 .column {
-width: 100%;
+width: 1000px;
 }
 
 #preface-wrapper.in2 .column {
-width: 50%;
+width: 500px;
 }
 
 #preface-wrapper.in3 .column {
-width: 33.3%;
+width: 300px;
 }
 :/*
 #preface-wrapper .block {
@@ -588,12 +588,12 @@ margin:20px;
 -------------------------------------------------------------- */
 
 #wrapper {
-width:950px;
+width:1000px;
 margin: 15px auto 0;
 }
 
 #content {
-width: 100%;
+width: 1000px;
 float: left;
 }
 
@@ -601,37 +601,37 @@ float: left;
 -------------------------------------------------------------- */
 
 #layout-type-1 #sidebar-left {
-width: 26%;
+width: 250px;
 float: left;
 font-size:12px;	
 }
 
 #layout-type-2 #sidebar-left {
-width: 21%;
+width: 250px;
 float: left;
 margin-right: 2%;
 font-size:12px;	
 }
 
 .one-sidebar #content{
-width: 69%;
+width: 750px;
 margin-left: 25px;
 float: left;
 }
 
 .two-sidebars #content{
-width: 54%;
+width: 500px;
 float: left;
 }
 
 #layout-type-1 #sidebar-right {
-width: 26%;
+width: 300px;
 float: right;
 font-size:12px;	      
 }
 
 #layout-type-2 #sidebar-right {
-width: 21%;
+width: 300px;
 float: right;
 font-size:12px;	      
 }
@@ -923,7 +923,7 @@ color: #999;
 -------------------------------------------------------------- */
 
 #forum table {
-width: 100%;
+width: 1000px;
 }
 
 #forum td {
@@ -987,7 +987,7 @@ padding: 0 6px;
 -------------------------------------------------------------- */
 
 #tracker table {
-width: 100%;
+width: 1000px;
 }
 
 #tracker td {
@@ -1377,15 +1377,15 @@ float: left;
 }
 
 #bottom-teaser.in1 .column {
-width: 100%;
+width: 1000px;
 }
 
 #bottom-teaser.in2 .column {
-width: 50%;
+width: 750px;
 }
 
 #bottom-teaser.in3 .column {
-width: 33.3%;
+width: 500px;
 }
 
 #bottom-teaser .block {
@@ -1420,19 +1420,19 @@ float: left;
 }
 
 #bottom-wrapper.in1 .column {
-width: 100%;
+width: 1000px;
 }
 
 #bottom-wrapper.in2 .column {
-width: 50%;
+width: 750px;
 }
 
 #bottom-wrapper.in3 .column {
-width: 33.3%;
+width: 500px;
 }
 
 #bottom-wrapper.in4 .column {
-width: 25%;
+width: 250px;
 }
 
 #bottom-wrapper .block {
@@ -1518,9 +1518,59 @@ display:none;
 }
 
 .overlay #wrapper {
-width:98%;
+/*width:98%;*/
 }
 
 .theme-info ul {
 list-style-image:none;
 }
+
+/* responsive grid
+-------------------------------------------------------------- */
+.responsive-grid {
+background-color: #f4f4f4;;
+border-right: 1px solid #bbb;
+border-left: 1px solid #ddd;
+border-top: 1px solid #ddd;
+margin: 20px auto 0;
+text-align: center;
+/*width: 950px;*/
+position: relative;
+font-size: 16px;
+line-height: 18px;
+}
+
+.responsive-grid .column {
+float: left;
+padding: 5px;
+}
+
+.responsive-grid .in1 .column {
+width: 1000px;
+}
+
+.responsive-grid .in2 .column {
+width: 750px;
+}
+
+.responsive-grid .in3 .column {
+width: 500px;
+}
+
+.responsive-grid .in4 .column {
+width: 250px;
+}
+
+.responsive-grid .block {
+margin:0 15px;
+}
+
+.responsive-grid .block-title {
+margin-top:15px;
+font-size: 1.3em;
+}
+
+.responsive-grid .region {
+margin:15px 0;
+}
+
