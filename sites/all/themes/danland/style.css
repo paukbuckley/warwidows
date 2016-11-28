@@ -532,7 +532,7 @@ z-index:3;
 -------------------------------------------------------------- */
 
 #preface-wrapper {
-width:950px;
+width:1000px;
 margin:5px auto 0;
 }
 
@@ -627,7 +627,7 @@ float: left;
 #layout-type-1 #sidebar-right {
 width: 300px;
 float: right;
-font-size:12px;	      
+	font-size:12px;	      
 }
 
 #layout-type-2 #sidebar-right {
@@ -1409,29 +1409,32 @@ background-color: #f4f4f4;;
 border-right: 1px solid #bbb;
 border-left: 1px solid #ddd;
 border-top: 1px solid #ddd;
+border-bottom: 1px solid #ddd;
 margin: 20px auto 0;
-text-align: left;
-width: 950px;
+padding:5px;
+text-align: center;
+width: 1000px;
 position: relative;
 }
 
 #bottom-wrapper .column {
-float: left;
+margin: 0 auto;
+display:inline-block;
 }
 
-#bottom-wrapper.in1 .column {
+/*#bottom-wrapper.in1 {
 width: 1000px;
 }
 
-#bottom-wrapper.in2 .column {
+#bottom-wrapper.in2 {
 width: 750px;
 }
 
-#bottom-wrapper.in3 .column {
+#bottom-wrapper.in3 {
 width: 500px;
 }
 
-#bottom-wrapper.in4 .column {
+#bottom-wrapper.in4 {
 width: 250px;
 }
 
@@ -1446,7 +1449,7 @@ font-size: 1.3em;
 
 #bottom-wrapper .region {
 margin:15px 0;
-}
+}*/
 
 /* Footer region
 -------------------------------------------------------------- */
@@ -1455,7 +1458,7 @@ margin:15px 0;
 width: 950px;
 margin: 0 auto;
 position: relative;
-border-top: 1px solid #bbb;
+/*border-top: 1px solid #bbb;*/
 padding:10px 0 0;
 }
 
@@ -1528,11 +1531,11 @@ list-style-image:none;
 /* responsive grid
 -------------------------------------------------------------- */
 .responsive-grid {
-background-color: #f4f4f4;;
+/*background-color: #f4f4f4;;
 border-right: 1px solid #bbb;
 border-left: 1px solid #ddd;
 border-top: 1px solid #ddd;
-margin: 20px auto 0;
+margin: 20px auto 0;*/
 text-align: center;
 /*width: 950px;*/
 position: relative;
@@ -1543,22 +1546,34 @@ line-height: 18px;
 .responsive-grid .column {
 float: left;
 padding: 5px;
+display: inline-block;
 }
 
-.responsive-grid .in1 .column {
-width: 1000px;
+.responsive-grid .in1 {
+width: 950px;
 }
 
-.responsive-grid .in2 .column {
-width: 750px;
+.responsive-grid .in2 {
+width: 700px;
 }
 
-.responsive-grid .in3 .column {
-width: 500px;
+.responsive-grid .in3 {
+width: 400px;
 }
 
-.responsive-grid .in4 .column {
+.responsive-grid .in4 {
 width: 250px;
+}
+.responsive-grid .in5 {
+width: 175px;
+}
+
+.responsive-grid .in6{
+width: 135px;
+}
+.equal-row{
+height: auto;
+display: inline-block;
 }
 
 .responsive-grid .block {
@@ -1572,5 +1587,26 @@ font-size: 1.3em;
 
 .responsive-grid .region {
 margin:15px 0;
+	}
+.image-link{
+margin:5px;
+padding:15px;
+cursor:pointer;
 }
 
+.centered-view{
+margin-left: auto;
+margin-right: auto;
+}
+.block-center{
+width:inherit;
+}
+
+.image-link:hover{
+background-color:#005a8c;
+border-radius: 15px;
+}
+
+.image-link:hover a{
+color:white;
+}
